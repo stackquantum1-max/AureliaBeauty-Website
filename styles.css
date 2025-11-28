@@ -11,13 +11,14 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   background-color: transparent;
   position: absolute;
   top: 0;
+  width: 100%;
   z-index: 100;
+  flex-wrap: wrap;
 }
 
 .logo-container {
@@ -27,6 +28,14 @@ body {
   border-radius: 12px;
   padding: 0.5rem 1rem;
   border: 1px solid #aaa;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .logo-icon {
