@@ -86,7 +86,7 @@ body.dark-theme .nav-links li a:hover {
 }
 
 .hero {
-  background-image: url('https://avatars.mds.yandex.net/i?id=7be6fa879e3adb4adec6a6e8f0f61aeed5bf79dd-5282568-images-thumbs&n=13');
+  background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV80M19hbl9pbGx1c3RyYXRpdW9uX29mX2Nsb3Vkc19vbl9hX2JsYWNrX2JhY2tncl9hNjQ0NTNmNS1jOThhLTQzZTAtYjllOC0yYjEyZjUxNDgyOWFfMS5qcGc.jpg');
   background-size: cover;      /* Cover the entire section */
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
@@ -102,7 +102,7 @@ body.dark-theme .nav-links li a:hover {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
 
