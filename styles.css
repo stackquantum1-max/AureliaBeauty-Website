@@ -18,7 +18,8 @@ body {
   top: 0;
   width: 100%;
   z-index: 100;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 .logo-container {
@@ -35,7 +36,8 @@ body {
   align-items: center;
   margin-left: auto;
   gap: 1rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
 }
 
 .logo-icon {
@@ -49,6 +51,8 @@ body {
   font-size: 1.8rem;
   font-weight: bold;
   color: #2c2929;
+  white-space: nowrap;
+  flex-shrink: 1;
 }
 
 .nav-links {
