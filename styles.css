@@ -6,7 +6,6 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
   color: #222;
 }
 
@@ -16,7 +15,7 @@ body {
   align-items: center;
   padding: 1rem 2rem;
   background-color: transparent;
-  position: sticky;
+  position: absolute;
   top: 0;
   z-index: 100;
 }
@@ -24,6 +23,10 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
+  background-color: rgba(252, 252, 252);
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  border: 1px solid #aaa;
 }
 
 .logo-icon {
@@ -36,7 +39,7 @@ body {
   font-family: 'Georgia', serif;
   font-size: 1.8rem;
   font-weight: bold;
-  color: #222;
+  color: #2c2929;
 }
 
 .nav-links {
@@ -47,7 +50,7 @@ body {
 
 .nav-links li {
   background-color: rgba(200, 200, 200, 0.3);
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 0.5rem 1rem;
   border: 1px solid #aaa;
   transition: all 0.3s;
@@ -55,14 +58,9 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #222;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s;
-}
-
-.nav-links li a:hover {
-   background-color: rgba(200, 200, 200, 0.6);
-  color: #d46a6a;
 }
 
 #theme-toggle {
@@ -118,7 +116,7 @@ body.dark-theme .nav-links li a:hover {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
