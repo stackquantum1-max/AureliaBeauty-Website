@@ -84,3 +84,31 @@ body.dark-theme .nav-links li a {
 body.dark-theme .nav-links li a:hover {
   color: #f3a6a6;
 }
+
+.hero {
+  background-image: url('https://avatars.mds.yandex.net/i?id=7be6fa879e3adb4adec6a6e8f0f61aeed5bf79dd-5282568-images-thumbs&n=13');
+  background-size: cover;      /* Cover the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;           /* Full viewport height */
+  display: flex;               /* For positioning content inside */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+}
