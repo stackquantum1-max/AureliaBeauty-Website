@@ -25,8 +25,10 @@ body {
 .navbar-inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   width: 100%;
   gap: 1rem;
+  flex-wrap: nowrap;
 }
 
 .logo-container {
@@ -38,6 +40,7 @@ body {
   border: 1px solid #aaa;
   flex-shrink: 1;
   min-width: 0;
+  flex: 0 1 auto;
 }
 
 .logo-icon {
@@ -55,21 +58,24 @@ body {
   flex-shrink: 1;
 }
 
-/* Right side nav + toggle */
 .nav-right {
   display: flex;
   align-items: center;
   gap: 1rem;
-  flex-shrink: 1;
+  flex: 1 1 auto;
+  justify-content: flex-end;
   min-width: 0;
 }
 
 .nav-links {
   display: flex;
-  gap: 0.5rem; /* space between pills */
+  gap: 0.5rem;
   list-style: none;
-  flex-shrink: 1;
   min-width: 0;
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .nav-links li {
