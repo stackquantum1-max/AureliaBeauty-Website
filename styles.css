@@ -38,7 +38,7 @@ body {
   border-radius: 12px;
   padding: 0.5rem 1rem;
   border: 1px solid #aaa;
-  flex-shrink: 1;
+  flex-shrink: 0;
   min-width: 0;
   flex: 0 1 auto;
 }
@@ -64,7 +64,7 @@ body {
   gap: 1rem;
   flex: 1 1 auto;
   justify-content: flex-end;
-  min-width: auto;
+  min-width: 0;
 }
 
 .nav-links {
@@ -75,6 +75,9 @@ body {
   flex-shrink: 1;
   flex-grow: 0;
   flex-basis: auto;
+  justify-content: flex-end;
+  flex: 1;
+
 }
 
 .nav-links li {
