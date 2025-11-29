@@ -80,16 +80,15 @@ body {
 
 /* THEME TOGGLE */
 #theme-toggle {
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(172, 153, 153, 0.5);
   border: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 12px;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
   cursor: pointer;
-  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-size: clamp(1rem, 2vw, 1rem);
   color: #fff;
   transition: 0.3s;
 }
-
 
 #theme-toggle:hover {
   background-color: rgba(255,255,255,0.4);
