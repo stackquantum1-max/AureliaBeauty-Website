@@ -64,18 +64,17 @@ body {
   gap: 1rem;
   flex: 1 1 auto;
   justify-content: flex-end;
-  min-width: 0;
+  min-width: auto;
 }
 
 .nav-links {
   display: flex;
   gap: 0.5rem;
   list-style: none;
-  min-width: 0;
-  flex: 1 1 auto;
   white-space: nowrap;
-  overflow-x: auto;
-  scrollbar-width: none;
+  flex-shrink: 1;
+  flex-grow: 0;
+  flex-basis: auto;
 }
 
 .nav-links li {
