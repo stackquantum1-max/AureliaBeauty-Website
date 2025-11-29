@@ -15,7 +15,7 @@ body {
   width: 100%;
   padding: 1rem 2rem;
   z-index: 100;
-  background: rgba(255, 255, 255, 0); /* fully transparent */
+  background: rgba(255, 255, 255, 0);
   display: flex;
   justify-content: center;
 }
@@ -51,7 +51,6 @@ body {
   color: #292626;
 }
 
-/* DESKTOP NAV */
 .nav-right {
   display: flex;
   align-items: center;
@@ -66,7 +65,7 @@ body {
 
 .nav-links li a {
   text-decoration: none;
-  color: #fff; /* white links */
+  color: #fff;
   font-weight: 500;
   padding: 0.4rem 0.8rem;
   border-radius: 10px;
@@ -78,7 +77,6 @@ body {
   color: #cfaa58;
 }
 
-/* THEME TOGGLE */
 #theme-toggle {
   background-color: rgba(172, 153, 153, 0.5);
   border: none;
@@ -94,9 +92,8 @@ body {
   background-color: rgba(255,255,255,0.4);
 }
 
-/* MOBILE MENU BUTTON */
 #menu-btn {
-  display: none; /* hidden on desktop */
+  display: none;
   background: rgba(255,255,255,0.2);
   border: none;
   font-size: 1.6rem;
@@ -110,7 +107,6 @@ body {
   background: rgba(255,255,255,0.4);
 }
 
-/* MOBILE MENU DROPDOWN */
 .mobile-menu {
   display: none;
   position: absolute;
@@ -142,7 +138,6 @@ body {
   color: #d46a6a;
 }
 
-/* HERO SECTION */
 .hero {
   background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEyL3Jhd3BpeGVsX29mZmljZV80M19hbl9pbGx1c3RyYXRpdW9uX29mX2Nsb3Vkc19vbl9hX2JsYWNrX2JhY2tncl9hNjQ0NTNmNS1jOThhLTQzZTAtYjllOC0yYjEyZjUxNDgyOWFfMS5qcGc.jpg');
   background-size: cover;
@@ -185,10 +180,10 @@ body.dark-theme .moon-icon {
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .nav-right {
-    display: none; /* hide desktop nav */
+    display: none;
   }
 
   #menu-btn {
-    display: block; /* show mobile button */
+    display: block;
   }
 }
