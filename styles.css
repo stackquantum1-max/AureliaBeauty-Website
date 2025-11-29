@@ -179,7 +179,6 @@ body {
 /* TEXT SIDE */
 .hero-content {
   flex: 1;
-  color: #fff;
 }
 
 .hero-subtitle {
@@ -187,7 +186,6 @@ body {
   font-style: italic;
   letter-spacing: 1px;
   opacity: 0.8;
-  color: red;
 }
 
 .hero-title {
