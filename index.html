@@ -8,6 +8,7 @@
 </head>
 <body>
 
+<!-- NAVBAR -->
 <nav class="navbar">
   <div class="navbar-inner">
     <!-- Logo -->
@@ -16,37 +17,52 @@
       <span class="logo-text">Aurelia</span>
     </div>
 
-  <!-- Right Group -->>
-    <!-- Links -->
-  <div class="nav-right"> 
-    <ul class="nav-links">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">SkinQuiz</a></li>
-      <li><a href="#">GlowJournal</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
+    <!-- Desktop Nav Links + Theme Toggle -->
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">SkinQuiz</a></li>
+        <li><a href="#">GlowJournal</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
-    <!-- Theme toggle -->
-    <button id="theme-toggle">
-      <span class="moon-icon">🌙</span>
-      <span class="sun-icon hidden">☀️</span>
-    </button>
-  </div>
+      <button id="theme-toggle">
+        <span class="moon-icon">🌙</span>
+        <span class="sun-icon hidden">☀️</span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn">☰</button>
+
   </div>
 </nav>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to Aurelia Beauty</h1>
-      <p>Glow from within with our skincare essentials</p>
-      <button class="cta-btn">Explore Products</button>
-    </div>
-  </section>
+<!-- Mobile Menu Dropdown -->
+<div class="mobile-menu">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">SkinQuiz</a></li>
+    <li><a href="#">GlowJournal</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>
 
-  <script src="script.js"></script>
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Aurelia Beauty</h1>
+    <p>Glow from within with our skincare essentials</p>
+    <button class="cta-btn">Explore Products</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
