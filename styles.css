@@ -99,10 +99,10 @@ body {
   display: none; /* hidden on desktop */
   background: rgba(255,255,255,0.2);
   border: none;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   cursor: pointer;
   color: #fff;
-  padding: 0.01rem 0.5rem;
+  padding: 0.02rem 0.5rem;
   border-radius: 8px;
 }
 
