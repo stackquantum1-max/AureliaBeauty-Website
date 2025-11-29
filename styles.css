@@ -65,11 +65,15 @@ body {
 
 .nav-links {
   display: flex;
-  gap: 0.5rem;
+  gap: clamp(0.2rem, 1vw, 1rem);
   list-style: none;
   flex-grow: 1;
   justify-content: flex-end;
+  flex: 1 1 auto;
   min-width: 0;
+  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .nav-links li {
